@@ -1,0 +1,270 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+   
+    background-image: linear-gradient(to bottom, #051937, #374162, hsl(230, 17%, 49%), #9a9ec2, #d0d2f6);
+    font-family: 'Kanit', sans-serif;
+
+
+    
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #9a9ec2;
+    text-decoration: none;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+ 
+
+
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    padding: 5px 25px;
+    transition: 1.3s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 15px;
+    display: inline;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 40%;
+    border-radius: 30px;
+
+}
+
+
+.responsive-iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    background: #30FFFF;
+    background: -webkit-linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    background: -moz-linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    background: linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#loginbtn{ color: #fff;}
+
+#loginbtn:hover{ color: #8ec5fc;}
+
+
+
+.btn-c {
+    background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%);
+    padding: 5px 25px;
+    transition: 1.3s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 15px;
+    display: inline;
+}
+
+.btn-c:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    background: #2465FF;
+    background: -webkit-linear-gradient(to right, #2465FF 0%, #4EA3D4 75%);
+    background: -moz-linear-gradient(to right, #2465FF 0%, #4EA3D4 75%);
+    background: linear-gradient(to right, #2465FF 0%, #4EA3D4 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.socials {
+    width: 32px;
+    height: 32px;
+}
+
+#Footer {
+    margin-top: 200px;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.btn-link{text-decoration: none;}
+
+
+/*services*/
+section{
+    margin-top: 10rem!important;
+
+	padding: 150px 0;
+}
+section .section-title{
+	text-align:center;
+    background: #30FFFF;
+    background: -webkit-linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    background: -moz-linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    background: linear-gradient(to top, #30FFFF 0%, #D019D4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 2rem!important;
+	border: none;
+	margin-bottom:2rem;
+}
+
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+
+}
+
+#what-we-do .card .card-block:before{
+    position: absolute;
+    font-size: 39px;
+    color: #D019D4;
+    left: 0;
+	
+}
+#what-we-do .card .block-1:before{
+    content:"\f179";
+    font-family: FontAwesome;
+    
+}
+#what-we-do .card .block-2:before{
+    content: "\f004";
+    font-family: FontAwesome;
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+}
+#what-we-do .card .block-4:before{
+    content: "\f0d1";
+    font-family: FontAwesome;
+}
+#what-we-do .card .block-5:before{
+ 
+    content: "\f0c0";
+    font-family: FontAwesome;
+}
+#what-we-do .card .block-6:before{
+    content: "\f0d6";
+    font-family: FontAwesome;
+
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	transition: 1s all ease;
+}
+
+/*Sticky icon bar*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: rgb(7, 196, 221);
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color*/
+.icon-bar a:hover {
+    background-color: #acb0c5;
+  }
+  
+/*carousel*/
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-google {
+    background-color: #ec4242;
+    color: #fff;
+}
+/*News Leter*/
+#newsl{
+text-align: center;
+font-size: 60px;
+padding: 0px;
+font-weight: 450;
+letter-spacing: 2px;}
+
+/*Testemonials*/
